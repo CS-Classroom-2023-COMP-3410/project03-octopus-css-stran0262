@@ -1,0 +1,91 @@
+#header {
+    width: 98%;
+    align-self: center;
+    border-radius: 15px;        /* Adjust for rounded corners */
+    padding: 15px;
+    padding-top: 5px;
+    background: linear-gradient(to right, #1b749b, #2caacc);        /* Left-to-right gradient */
+    color: white;
+}
+  
+#main-content {
+    width: 98%;                 /* Adjust the width as needed */
+    align-self: center;
+    border-radius: 15px;        /* Adjust for rounded corners */
+    padding: 15px;
+    padding-bottom: 30px;
+    background: white;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 1px 1px black;         /* Adds shadow to text */
+}
+
+h2, h3, h4, h5, h6 {
+    color: #186a92;
+    margin-bottom: 10px; 
+}
+  
+hr {
+    width: 5%; 
+    text-align: left;                       /* Align the line to the left */
+    border: 2px solid #97e1ed;           /* Thickness, style, and color of hr line */
+    margin: 0;                              /* Remove any default margin */
+}
+  
+#footer {
+    width: 98%;
+    align-self: center;
+    border-radius: 15px;                    /* Adjust for rounded corners */
+    padding: 10px;
+    padding-top: 3px;
+    padding-bottom: 15px;
+    background-color: #006994;
+    color: white;
+}
+
+/* Input textbox style */
+input[type="text"] {
+    border: 1.5px solid black;                    /* Thickness, style, and color of border */
+    width: 280px;                                   /* Full width of the container */
+    border-radius: 5px;                             /* Adjust for rounded corners */
+    margin: 10px 0; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Submit button style */
+input[type=submit] {
+    background-color: #186a92;
+    border: None;                       /* Removes border */
+    color: white;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;                 /* Adjust for rounded corners */
+}
+
+/* Table related styles */
+/* Table style */
+.species-table {
+    border-collapse: collapse;              /* Merges border lines together */
+    border: 1.5px solid black;          /* Thickness, style, and color of border */
+    width: 100%;
+}
+
+/* Header style */
+.species-table th {
+    color: white;
+    text-align: left;
+    background-color: #999999;
+    padding-left: 5px;
+    border: 1.5px solid black;          /* Thickness, style, and color of border */
+}
+
+/* Cell style */
+.species-table td {
+    padding-left: 5px;
+    border: 1.5px solid black;
+}
+
